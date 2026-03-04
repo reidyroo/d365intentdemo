@@ -1,0 +1,56 @@
+Create intent groups that reflect major technical or service topics for solar and battery systems. Use short noun phrases, and assign each customer conversation to exactly one of these groups:
+- Alarm Resolution – Issues where the customer reports an inverter or battery alarm, warning, or error code (for example, beeping inverter, flashing alarm LED, fault code on display).
+- Device Operation – Questions or problems about how the inverter or battery behaves in normal use (for example, "system not producing power", "battery not charging", "can't start inverter", "unexpected shutdown", "string isolation request").
+- Firmware Management – Questions or tasks related to checking, updating, or rolling back firmware or configuration profiles on inverters, batteries, or monitoring gateways.
+- Inspection Dispatch (Field Engineer) – Situations where remote troubleshooting is not enough and a site visit is required (for example, suspected hardware failure, repeated alarms after remote steps, safety concerns that require an electrician).
+- Service Management – Administrative requests such as booking maintenance, rescheduling visits, warranty checks, or contract questions (for example, "book a service", "check warranty", "update contact details").
+- String Isolation – Requests or issues specifically related to isolating or de‑energizing one or more PV strings (for example, "isolate west string due to roof work", "string isolation switch fault").
+
+When deciding the group:
+If the customer's main concern is an alarm / error code, use Alarm Resolution, even if you later dispatch an engineer.
+If the issue is about ongoing behaviour without an alarm (for example, low output), use Device Operation.
+If the customer explicitly mentions firmware, software version, or configuration file, use Firmware Management.
+If the conversation clearly results in booking a visit, but the technical topic is not clear, use Inspection Dispatch (Field Engineer).
+If the request is purely administrative and not about a technical problem, use Service Management.
+If the customer or agent is talking about isolating a string or safety shut‑down of part of the array, use String Isolation, even if an alarm also exists
+
+
+
+Create intents as single, clear sentences in the customer's voice. Use them to describe a specific symptom or request under the chosen group:
+- Alarm Resolution
+"My inverter is beeping with a battery alarm."
+"My inverter screen shows a DC isolation fault alarm."
+"My inverter keeps showing an over‑temperature warning."
+"My inverter shows a grid fault or grid over/under‑voltage alarm."
+
+- Device Operation
+"My system is not producing any power."
+"My battery is not charging even when it is sunny."
+"My inverter keeps shutting down during the day without an alarm code."
+"I want to isolate one string because of roof work."
+
+- Firmware Management
+"I need to update the firmware on my inverter."
+"My inverter is showing issues after a recent firmware update."
+"I want to check which firmware version my system is running."
+
+- Inspection Dispatch (Field Engineer)
+"I need an engineer to visit because the inverter alarm persists after troubleshooting."
+"I need an onsite inspection for a suspected hardware fault."
+"I need an electrician to check my inverter wiring."
+
+- Service Management
+"I want to book a routine service for my solar system."
+"I want to reschedule my field engineer appointment."
+"I want to check if my inverter is still under warranty."
+
+- String Isolation
+"I need to isolate a specific PV string for safety."
+"My string isolation switch is not working correctly."
+"I need help re‑energizing a string after maintenance."
+
+When you add new intents:
+Pick the group based on the customer's main symptom or goal, not on the internal team that handles it.
+
+Avoid duplicate intents that describe the same symptom in different words; keep the most representative sentence.
+If you see an intent that mixes multiple problems (for example, alarms plus appointment plus billing), split it into separate intents in different groups.

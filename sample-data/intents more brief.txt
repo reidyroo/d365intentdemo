@@ -1,0 +1,17 @@
+Create intents as single, clear sentences in a natural voice. 
+Use them to describe a specific symptom or request under the chosen group, for example:
+- Alarm Resolution
+"My inverter is beeping with a battery alarm."
+- Device Operation
+"My system is not producing any power."
+- Firmware Management
+"I need to update the firmware on my inverter."
+- Inspection Dispatch
+"I need an onsite inspection for a suspected hardware fault."
+- Service Management
+"I want to check if my inverter is still under warranty."
+- String Isolation
+"I need to isolate a specific PV string for safety."
+When you add new intents:
+Pick the group based on the customer's main symptom or goal.
+Avoid duplicate intents that describe the same symptom in different words; keep the most representative sentence.

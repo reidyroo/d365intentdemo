@@ -1,0 +1,15 @@
+Create intent groups that reflect major technical or service topics for solar and battery systems.
+Use short noun phrases, and assign each case or customer conversation to one of these groups: 
+- Alarm Resolution – Issues where the customer reports an inverter or battery alarm, warning, or error code
+- Device Operation – Questions or problems about how the inverter or battery behaves in normal use
+- Firmware Management – Questions or tasks related to checking, updating, or rolling back firmware
+- Inspection Dispatch – Situations where a site visit is required
+- Service Management – Administrative requests such as booking maintenance, rescheduling visits, warranty checks, or contract questions
+- String Isolation – Requests or issues specifically related to isolating or de‑energizing one or more PV strings 
+When deciding the group:
+If the customer's main concern is an alarm / error code, use Alarm Resolution, even if you later dispatch an engineer.
+If the issue is about ongoing behaviour without an alarm (for example, low output), use Device Operation.
+If the customer explicitly mentions firmware, software version, or configuration file, use Firmware Management.
+If the conversation clearly results in booking a visit, but the technical topic is not clear, use Inspection Dispatch.
+If the request is purely administrative and not about a technical problem, use Service Management.
+If the customer or agent is talking about isolating a string or safety shut‑down of part of the array, use String Isolation, even if an alarm also exists

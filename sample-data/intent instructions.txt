@@ -1,0 +1,38 @@
+Create intents as single, clear sentences in the customer's voice. Use them to describe a specific symptom or request under the chosen group:
+- Alarm Resolution
+"My inverter is beeping with a battery alarm."
+"My inverter screen shows a DC isolation fault alarm."
+"My inverter keeps showing an over‑temperature warning."
+"My inverter shows a grid fault or grid over/under‑voltage alarm."
+
+- Device Operation
+"My system is not producing any power."
+"My battery is not charging even when it is sunny."
+"My inverter keeps shutting down during the day without an alarm code."
+"I want to isolate one string because of roof work."
+
+- Firmware Management
+"I need to update the firmware on my inverter."
+"My inverter is showing issues after a recent firmware update."
+"I want to check which firmware version my system is running."
+
+- Inspection Dispatch (Field Engineer)
+"I need an engineer to visit because the inverter alarm persists after troubleshooting."
+"I need an onsite inspection for a suspected hardware fault."
+"I need an electrician to check my inverter wiring."
+
+- Service Management
+"I want to book a routine service for my solar system."
+"I want to reschedule my field engineer appointment."
+"I want to check if my inverter is still under warranty."
+
+- String Isolation
+"I need to isolate a specific PV string for safety."
+"My string isolation switch is not working correctly."
+"I need help re‑energizing a string after maintenance."
+
+When you add new intents:
+Pick the group based on the customer's main symptom or goal, not on the internal team that handles it.
+
+Avoid duplicate intents that describe the same symptom in different words; keep the most representative sentence.
+If you see an intent that mixes multiple problems (for example, alarms plus appointment plus billing), split it into separate intents in different groups.
